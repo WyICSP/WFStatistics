@@ -1,0 +1,41 @@
+{
+  "name": "WFStatistics",
+  "version": "0.1.0",
+  "summary": "WFStatistics 埋点",
+  "description": "WFStatistics 项目埋点的组件",
+  "homepage": "https://github.com/WyICSP/WFStatistics",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wyxlh": "wy_wangyu163@163.com"
+  },
+  "source": {
+    "git": "https://github.com/WyICSP/WFStatistics.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "WFStatistics/Classes/**/*",
+  "resource_bundles": {
+    "WFStatistics": [
+      "WFStatistics/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "WFBasics": [
+
+    ],
+    "WFKitMain": [
+
+    ],
+    "WFKitLogin": [
+
+    ],
+    "FMDB": [
+
+    ]
+  }
+}

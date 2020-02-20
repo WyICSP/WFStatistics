@@ -1,0 +1,94 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - dsBridge (3.0.6)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - MJExtension (3.2.1)
+  - MJRefresh (3.2.2)
+  - SDWebImage (5.3.1):
+    - SDWebImage/Core (= 5.3.1)
+  - SDWebImage/Core (5.3.1)
+  - SVProgressHUD (2.2.5)
+  - WFBasics (0.3.4):
+    - AFNetworking
+    - SVProgressHUD
+    - WYAutoLayout
+  - WFHomeAddress (0.1.5):
+    - MJExtension
+  - WFKitLogin (0.5.2):
+    - dsBridge
+    - MJExtension
+    - MJRefresh
+    - SDWebImage
+    - WFHomeAddress
+    - WFKitMain
+    - WKFunComponents
+  - WFKitMain (0.2.6):
+    - dsBridge
+    - WFBasics
+  - WFStatistics (0.1.0):
+    - FMDB
+    - WFBasics
+    - WFKitLogin
+    - WFKitMain
+  - WKFunComponents (0.1.0)
+  - WYAutoLayout (1.0.1)
+
+DEPENDENCIES:
+  - WFStatistics (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - dsBridge
+    - FMDB
+    - MJExtension
+    - MJRefresh
+    - SDWebImage
+    - SVProgressHUD
+    - WYAutoLayout
+  https://github.com/WyICSP/WFSpecs.git:
+    - WFBasics
+    - WFHomeAddress
+    - WFKitLogin
+    - WFKitMain
+    - WKFunComponents
+
+EXTERNAL SOURCES:
+  WFStatistics:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  dsBridge: 48b62ee8a411ad601a88d6f6c8cf6cb634b206b7
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  MJExtension: 635f2c663dcb1bf76fa4b715b2570a5710aec545
+  MJRefresh: 72a46ecaa2a0feaf48fc5198dff95f25f8bb27c6
+  SDWebImage: 7137d57385fb632129838c1e6ab9528a22c666cc
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  WFBasics: 82a564c21b6e3cbb5e31731d4662dd0863688b76
+  WFHomeAddress: 4eb27df8a873af9161d147f8b10a1d50ba725467
+  WFKitLogin: f37543f050d7134f75a306286315f1296dcc1502
+  WFKitMain: 0fa22bfb094a15e8ccdc0bd11db57e264b40d3ad
+  WFStatistics: 98b750ed11e54f2a6b2896e79c670d03180a1587
+  WKFunComponents: a4cde3e92b1c5841be91a9eefd7968c8ce903f73
+  WYAutoLayout: 3cb136ddc2efa9faaecf15876e6a9b2a6fd7c6cb
+
+PODFILE CHECKSUM: 103c3a5e04fc981ea46bb0809e2881cedc958051
+
+COCOAPODS: 1.7.3

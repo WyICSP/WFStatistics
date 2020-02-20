@@ -7,6 +7,7 @@
 //
 
 #import "WFViewController.h"
+#import "WFDemoViewController.h"
 
 @interface WFViewController ()
 
@@ -24,6 +25,11 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    WFDemoViewController *demo = [[WFDemoViewController alloc] init];
+    [self.navigationController pushViewController:demo animated:YES];
 }
 
 @end
